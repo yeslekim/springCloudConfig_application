@@ -1,0 +1,13 @@
+spring.profiles: dev
+test:
+  msg: devevelopment
+
+---
+spring.profiles: test
+test:
+  msg: test.
+
+---
+spring.profiles: prod
+test:
+  msg: production
